@@ -1,0 +1,14 @@
+{% extends "base.html"%} {% block content%}
+{%load static%}
+<div class="button_container">
+  <button id="product_fetch_button" class="button">View all Products</button>
+</div>
+
+<div class="products_container">
+    <div class="product_cards_container">
+
+    </div>
+</div>
+
+<script src= "{% static 'fetch_data.js'%}" ></script>
+{%endblock content%}
